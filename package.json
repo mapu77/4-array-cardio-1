@@ -1,0 +1,19 @@
+{
+  "name": "4-array-cardio-1",
+  "version": "1.0.0",
+  "description": "Day 4 of JavaScript 30 days challenge ",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mapu77/4-array-cardio-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mapu77/4-array-cardio-1/issues"
+  },
+  "homepage": "https://github.com/mapu77/4-array-cardio-1#readme"
+}
