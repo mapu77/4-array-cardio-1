@@ -32,3 +32,12 @@ describe('filterInventors', () => {
         })
     })
 });
+
+describe('joinInventorsFirstAndLastName', () => {
+    test('joins first and last name', () => {
+        let inventors = [{first: 'Albert', last: 'Einstein'}, {first: 'Isaac', last: 'Newton'}, {first: 'Galileo', last: 'Galilei'}]
+        let expectedCompleteNames = ['Albert Einstein', 'Isaac Newton', 'Galileo Galilei']
+        let inventorsCompleteNames = main.joinInventorsFirstAndLastName(inventors);
+        expect(inventorsCompleteNames).toEqual(expectedCompleteNames)
+    })
+})
